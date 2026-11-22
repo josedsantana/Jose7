@@ -1364,3 +1364,30 @@ ul.info li {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-header,
+  .fh5co-cover {
+    height: auto;
+    min-height: 100svh;
+  }
+
+  #fh5co-header .display-tc,
+  .fh5co-cover .display-tc {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+
+.scroll-prompt {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 40px 0 0;
+  color: #fff;
+}
+
+#fh5co-header .life-verse,
+#fh5co-header .hero-description {
+  color: #fff;
+}
